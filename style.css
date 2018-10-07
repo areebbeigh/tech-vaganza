@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Nova+Mono);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700);
+@import url(https://fonts.googleapis.com/css?family=Oxygen+Mono:400);
+
+html {
+    height: 100%;
+}
+
+body {
+    background: url("https://images.unsplash.com/photo-1528158477878-c8036dc3c31a?ixlib=rb-0.3.5&s=ab9588a4ce28adae6f8e854c03cb9a64&auto=format&fit=crop&w=1037&q=80") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.color-layer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.5;
+}
+
+.centered-section {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.centered-section-text {
+    font-family: 'Nova Mono', monospace;
+    font-size: 2.5em;
+    padding: 20px;
+    text-align: right;
+    border-right: 2px #fff solid;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column; /* column | row */
+}
+
+.centered-section-text span {
+}
+
+.centered-section-date {
+    padding: 20px;
+    font-family: 'Oxygen Mono', monospace;
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column; /* column | row */
+    font-size: 2em;
+}
