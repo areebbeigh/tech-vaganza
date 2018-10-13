@@ -13,15 +13,20 @@ body {
     height: 100%;
 }
 
-.color-layer {
+.page-color-layer {
     position: absolute;
     height: 100%;
     width: 100%;
     background: #000;
     opacity: 0.5;
+    z-index: -1;
 }
 
-.centered-section {
+.page-content {
+    z-index: 1;
+}
+
+.section-centered {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -31,7 +36,7 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
-.centered-section-text {
+.section-centered-text {
     font-family: 'Nova Mono', monospace;
     font-size: 2.5em;
     padding: 20px;
@@ -43,10 +48,10 @@ body {
     flex-direction:column; /* column | row */
 }
 
-.centered-section-text span {
+.section-centered-text span {
 }
 
-.centered-section-date {
+.section-centered-date {
     padding: 20px;
     font-family: 'Oxygen Mono', monospace;
     font-weight: bold;
@@ -56,4 +61,22 @@ body {
     align-content:center;
     flex-direction:column; /* column | row */
     font-size: 2em;
+}
+
+.section-social-links {
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3em;
+    color: #fff;
+}
+
+.section-social-links .fab {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.section-social-links .fab:hover {
+    opacity: 0.5;
 }
