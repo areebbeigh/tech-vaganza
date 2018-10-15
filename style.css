@@ -29,19 +29,25 @@ body {
 .section-centered {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 40%;
     transform: translate(-50%, -50%);
     color: white;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
+}
+
+.section-centered hr {
+    width: 40%;
+    border-color: #fff;
+    background: #fff;
 }
 
 .section-centered-text {
     font-family: 'Nova Mono', monospace;
-    font-size: 2.5em;
+    font-size: 4.5em;
     padding: 20px;
     text-align: right;
-    border-right: 2px #fff solid;
+    /* border-bottom: 2px #fff solid; */
     display: flex;
     justify-content:center;
     align-content:center;
@@ -55,12 +61,12 @@ body {
     padding: 20px;
     font-family: 'Oxygen Mono', monospace;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     display: flex;
     justify-content:center;
     align-content:center;
     flex-direction:column; /* column | row */
-    font-size: 2em;
+    font-size: 1.3em;
 }
 
 .section-social-links {
