@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background: url("https://images.unsplash.com/photo-1528158477878-c8036dc3c31a?ixlib=rb-0.3.5&s=ab9588a4ce28adae6f8e854c03cb9a64&auto=format&fit=crop&w=1037&q=80") no-repeat;
+    /* background: url("https://images.unsplash.com/photo-1528158477878-c8036dc3c31a?ixlib=rb-0.3.5&s=ab9588a4ce28adae6f8e854c03cb9a64&auto=format&fit=crop&w=1037&q=80") no-repeat; */
     background: url("https://images.unsplash.com/photo-1514040290939-39e806b3cbe7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=41f15aaf6d53d4a6a716997142145d1e&auto=format&fit=crop&w=1556&q=80") no-repeat;
     background-size: cover;
     background-position: center;
@@ -70,10 +70,22 @@ body {
     font-size: 1.3em;
 }
 
+.section-countdown {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Nova Mono', monospace;
+}
+
 .section-social-links {
     position: absolute;
     left: 50%;
-    top: 75%;
+    top: 95%;
     transform: translate(-50%, -50%);
     font-size: 1.3em;
     color: #fff;
