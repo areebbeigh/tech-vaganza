@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <link rel="stylesheet" href="./style.css">
     <meta charset="utf-8">
@@ -10,35 +11,148 @@
 </head>
 
 <body>
-    <div class="page-color-layer"></div>
     <div class="page-content">
         <main>
             <section>
-                <div class="section-centered">
-                    <div class="section-centered-text">
-                        <span>TechVaganza</span>
+                <div class="section-event-page">
+                    <div class="page-color-layer"></div>
+                    <div class="section-centered">
+                        <div class="section-centered-text">
+                            <span>TechVaganza</span>
+                        </div>
+                        <hr>
+                        <div class="section-centered-date">
+                            27th October
+                            2018
+                        </div>
                     </div>
-                    <hr>
-                    <div class="section-centered-date">
-                        27th October
-                        2018
+
+                    <div class="section-countdown">
+                        <span id="days-left"></span> :
+                        <span id="hours-left"></span> :
+                        <span id="minutes-left"></span> :
+                        <span id="seconds-left"></span>
+                    </div>
+
+                    <div class="section-social-links">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
                     </div>
                 </div>
             </section>
-            
+
             <section>
-                <div class="section-countdown">
-                    <span id="days-left"></span> :
-                    <span id="hours-left"></span> :
-                    <span id="minutes-left"></span> :
-                    <span id="seconds-left"></span>
+                <div class="section-events">
+                    <div class="section-events-header">
+                        <h2>EVENTS</h2>
+                        <div class="event-filter">
+                            <a href="" class="event-filter-button event-filter-button-active">Technical</a>
+                            <a href="" class="event-filter-button">Non-Technical</a>
+                        </div>
+                    </div>
+                    <div class="events-grid">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="https://images.unsplash.com/photo-1514043454212-14c181f46583?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=88519aba92b279e4acdacbbd5c9dc98e&auto=format&fit=crop&w=500&q=60">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Sample Event<i class="material-icons right">more_vert</i></span>
+                                <!-- <p><a href="#">This is a link</a></p> -->
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                <p style="color:initial">Here is some more information about this event.</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="https://images.unsplash.com/photo-1514043454212-14c181f46583?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=88519aba92b279e4acdacbbd5c9dc98e&auto=format&fit=crop&w=500&q=60">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Sample Event<i class="material-icons right">more_vert</i></span>
+                                <!-- <p><a href="#">This is a link</a></p> -->
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                <p style="color:initial">Here is some more information about this event.</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="https://images.unsplash.com/photo-1514043454212-14c181f46583?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=88519aba92b279e4acdacbbd5c9dc98e&auto=format&fit=crop&w=500&q=60">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Sample Event<i class="material-icons right">more_vert</i></span>
+                                <!-- <p><a href="#">This is a link</a></p> -->
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                <p style="color:initial">Here is some more information about this event.</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="https://images.unsplash.com/photo-1514043454212-14c181f46583?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=88519aba92b279e4acdacbbd5c9dc98e&auto=format&fit=crop&w=500&q=60">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Sample Event<i class="material-icons right">more_vert</i></span>
+                                <!-- <p><a href="#">This is a link</a></p> -->
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                <p style="color:initial">Here is some more information about this event.</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="https://images.unsplash.com/photo-1514043454212-14c181f46583?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=88519aba92b279e4acdacbbd5c9dc98e&auto=format&fit=crop&w=500&q=60">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Sample Event<i class="material-icons right">more_vert</i></span>
+                                <!-- <p><a href="#">This is a link</a></p> -->
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                <p style="color:initial">Here is some more information about this event.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
+
             <section>
-                <div class="section-social-links">
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-facebook"></i>
-                    <i class="fab fa-instagram"></i>
+                <div class="section-registration">
+                    <div class="section-registration-header">
+                        <h2>REGISTER</h2>
+                    </div>
+                    <div class="section-registration-form">
+                        <div class="input-field">
+                            <input placeholder="Name" id="name" type="text" class="validate">
+                            <!-- <label for="name">Name</label> -->
+                        </div>
+                        <div class="input-field">
+                            <input placeholder="Email" id="email" type="email" class="validate">
+                            <!-- <label for="email">Email</label> -->
+                        </div>
+                        <div class="input-field">
+                            <input placeholder="College" id="college" type="text" class="validate">
+                            <!-- <label for="college">College</label> -->
+                        </div>
+                        <div class="input-field">
+                            <input placeholder="Contact" id="number" type="tel" class="validate">
+                            <!-- <label for="number">Contact</label> -->
+                        </div>
+                        <div class="registration-form-button-container">
+                            <button class="btn waves-effect waves-light black" type="submit" name="action">Register
+                                <!-- <i class="material-icons right">send</i> -->
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
@@ -49,15 +163,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
     <script type="text/javascript">
-        // init navbar
-        $(document).ready(function () {
-            $('.sidenav').sidenav();
-        });
-    </script>
-
-    <script type="text/javascript">
         function prependZero(num) {
-            if(num.toString().length < 2) {
+            if (num.toString().length < 2) {
                 return "0" + num;
             }
 
@@ -78,25 +185,29 @@
             var hourInMiliSeconds = 60 * 60 * 1000;
             var minutesInMiliSeconds = 60 * 1000;
             var t = eventDate - today;
-            
+
             if (t <= 0) {
-                updateCounter(0,0,0,0)
+                updateCounter(0, 0, 0, 0)
                 return;
             }
 
             var daysToGo = Math.floor(t / dayInMiliSeconds);
-            var hoursToGo = Math.floor((t % dayInMiliSeconds)/hourInMiliSeconds);
-            var minutesToGo = Math.floor((t % hourInMiliSeconds)/minutesInMiliSeconds);
-            var secondsToGo = Math.floor((t % minutesInMiliSeconds)/1000);
+            var hoursToGo = Math.floor((t % dayInMiliSeconds) / hourInMiliSeconds);
+            var minutesToGo = Math.floor((t % hourInMiliSeconds) / minutesInMiliSeconds);
+            var secondsToGo = Math.floor((t % minutesInMiliSeconds) / 1000);
 
             updateCounter(daysToGo, hoursToGo, minutesToGo, secondsToGo)
 
             setTimeout(countDown, 1000);
         }
-        
+
         countDown();
         // console.log(daysToGo, hoursToGo, minutesToGo);
         // console.log(daysToGo.slice(daysToGo.indexOf('.') + 1, daysToGo.length))
+    </script>
+
+    <script>
+
     </script>
 </body>
 

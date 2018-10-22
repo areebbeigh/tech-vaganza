@@ -8,9 +8,6 @@ html {
 
 body {
     /* background: url("https://images.unsplash.com/photo-1528158477878-c8036dc3c31a?ixlib=rb-0.3.5&s=ab9588a4ce28adae6f8e854c03cb9a64&auto=format&fit=crop&w=1037&q=80") no-repeat; */
-    background: url("https://images.unsplash.com/photo-1514040290939-39e806b3cbe7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=41f15aaf6d53d4a6a716997142145d1e&auto=format&fit=crop&w=1556&q=80") no-repeat;
-    background-size: cover;
-    background-position: center;
     height: 100%;
 }
 
@@ -20,11 +17,18 @@ body {
     width: 100%;
     background: #000;
     opacity: 0.7;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 .page-content {
-    z-index: 1;
+    /* z-index: 1; */
+}
+
+.section-event-page {
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1514040290939-39e806b3cbe7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=41f15aaf6d53d4a6a716997142145d1e&auto=format&fit=crop&w=1556&q=80") no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .section-centered {
@@ -98,4 +102,75 @@ body {
 
 .section-social-links .fab:hover {
     opacity: 0.5;
+}
+
+.section-events {
+    min-height: 100vh;
+    padding: 5%;
+    background: #090808;
+    color: #fff;
+}
+
+.section-events-header {
+    text-align: center;
+    font-family: monospace;
+}
+
+.event-filter {
+    padding: 30px;
+}
+
+.event-filter-button {
+    /* border: 1px solid #000; */
+    /* border-radius: 0.3em; */
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.event-filter-button-active {
+    color: #fff;
+    /* text-decoration: underline; */
+}
+
+.events-grid {
+    /* border: 1px solid #000; */
+    margin-top: 50px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 5%;;
+    column-gap: 5%;
+}
+
+.section-registration {
+    padding: 5%;
+    background: #421313;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.section-registration-header {
+    text-align: center;
+    font-family: monospace;
+}
+
+.section-registration-form {
+    padding: 2%;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 2%;
+    /* border: 1px solid #000; */
+}
+
+.section-registration-form .input-field {
+    padding: 3%;
+}
+
+.registration-form-button-container {
+    padding: 10%;
+    text-align: center;
 }
